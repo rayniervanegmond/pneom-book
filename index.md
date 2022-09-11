@@ -1,10 +1,9 @@
-# Welcome to your Jupyter Book
+# Welcome to the Pacific Nortwest Earth Observation and Monitoring Program
 
-This is a small sample book to give you a feel for how book content is
-structured.
+The purpose of this online book is to provide a ready-to-run curriculum --based on a preconfigured Docker image-- for learning and executing satellite based remote sensing work using Python and its supporting geospatial information and deep learning libraries.
 
 :::{note}
-Here is a note!
+This books is still very much in a development phase. If you are interested in collaborating please rach out to me at: `raynierx (at) gmail (dot) com`!
 :::
 
 And here is a code block:
