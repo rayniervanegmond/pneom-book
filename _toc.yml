@@ -3,20 +3,118 @@
 
 format: jb-book
 root: index
-chapters:
-  - file: book/markdown
-  - file: book/notebooks
-  - file: book/bibliography
 
-# Or you organize the TOC by parts
+parts:
+  - caption: Introduction to The Pacific Northwest Earth Observation and Monitoring curriculum
+    numbered: false
+    maxdepth: 2
+    chapters:
+      - file: book/220927.000.002 The Vision Statement.md
+      - file: book/220927.000.100 Requirements.md
+      - file: book/220927.000.101 Requirements - Student Experience.md
+      - file: book/220927.000.102 Requirements - Infrastructure.md
+      - file: book/220927.001.001 The Introduction.md
+      - file: book/220927.001.002 The Introduction - Program Outline.md
+      - file: book/220927.001.003 The Introduction - Learning Objectives.md
+      - file: book/220927.001.004 The Introduction - The Research Process.md
+      - file: book/220927.001.005 The Introduction - Remote Sensing Technology.md
+      - file: book/220927.001.006 The Introduction - Software Development Process.md
+      - file: book/220927.001.010 The Introduction - The Interest Areas.md
+      - file: book/220927.001.011 The Introduction - Water resource management domain.md
+      - file: book/220927.001.012 The Introduction - Marine environment domain.md
+      - file: book/220927.001.013 The Introduction - Terrestrial eco-biodiv domain.md
+      - file: book/220927.001.014 The Introduction - Agro-sustainability domain.md
+      - file: book/220927.001.015 The Introduction - Health management domain.md
+      - file: book/220927.001.016 The Introduction - Disaster risk mgt domain.md
+      - file: book/220927.001.016.01 The Introduction  Disaster - Fire mgt domain.md
+      - file: book/220927.001.016.02 The Introduction  Disaster - Flood mgt domain.md
+      - file: book/220927.001.016.03 The Introduction  Disaster - Meteorlogy mgt domain.md
+      - file: book/220927.001.020 The Introduction  - Climate Change Monitoring and Prediction investigations.md
+  
+  - caption: The Curriculum Outline
+    chapters:
+      - file: book/220927.002.001 The Program Outline.md
+  
+  - caption: The Curriculum Learning Objectives
+    chapters: 
+      - file: book/220927.003.001 The Learning Objectives.md
+  
+  - caption: The Geospatial Research Process
+    chapters:
+      - file: book/220927.004.001 The Research Process.md
+      - file: book/220927.004.001.01 Writing a use-case or publication.md
+  
+  - caption: An Introduction to Remote Sensing Technology
+    chapters:
+      - file: book/220927.005.001 The Remote Sensing Technology.md
+      - file: book/220927.005.001.01 - cs fundamentals of remote sensing.md
+      - file: book/220927.005.001.02 - cs introduction to sar.md
+      - file: book/220927.005.001.03 - cs sar and optical for crop mapping.md
+      - file: book/220927.005.001.04 - cs sar for disaster assessment.md
+      - file: book/220927.005.001.05 - cs modis to viirs transition for air quality.md
+      - file: book/220927.005.001.06 - cs sar for landcover applications.md
+      - file: book/220927.005.001.07 - cs sar for forest mapping and monitoring.md
+      - file: book/220927.005.001.08 - cs google earth engine for land monitoring.md
+      - file: book/220927.005.001.09 - cs tropomi for no2 monitoring.md
+      - file: book/220927.005.001.10 - cs ecostress for soil mosture.md
+      - file: book/220927.005.001.11 - cs investigating time series of satellite imagery.md
 
-# parts:
-#   - caption: Chapters
-#     numbered: true
-#     maxdepth: 2
-#     chapters:
-#       - file: book/markdown
-#       - file: book/notebooks
-#   - caption: Appendices
-#     chapters:
-#       - file: book/bibliography
+  - caption: An Introduction to Geospatial Software Development
+    chapters:
+      - file: book/220927.006.001 The Software Development Process.md
+      
+  - caption: Marine Environment Monitoring
+    chapters:
+      - file: book/220927.012.001 Marine environment investigations.md
+      - file: book/220927.012.001.01 - cs remote sensing of coastal ecosystems.md
+      - file: book/220927.012.001.02 - cs introduction to remote sensing for coastal and oceans.md
+      - file: book/220927.012.001.03 - cs monitoring coastal and estuarine water quality.md
+      - file: book/220927.012.001.04 - cs hyperspectral data for land and coastal systems.md
+
+  - caption: Water Resource Management
+    chapters:
+      - file: book/220927.011.001 Water resource management investigations.md
+      - file: book/220927.011.001.01 - cs remote sensing-based evapotranspiration data products.md
+      - file: book/220927.011.001.02 - cs applications of gpm imerg reanalysis.md
+      - file: book/220927.011.001.03 - cs monitoring coastal and estuarine water quality.md
+      - file: book/220927.011.001.04 - cs mapping and monitoring lakes and reservoirs.md
+      - file: book/220927.011.001.05 - cs using earth observations to monitor river basin water budgets 1.md
+      - file: book/220927.011.001.06 - cs using earth observations to monitor river basin water budgets 2.md
+      - file: book/220927.011.001.07 - cs groundwater monitoring using observations from grace missions.md
+      - file: book/220927.011.001.08 - cs integrating remote sensing into a water quality monitoring program.md
+      - file: book/220927.011.001.09 - cs processing satellite imagery for monitoring water quality.md
+      - file: book/220927.011.001.10 - cs introduction to remote sensing of harmful algal blooms.md
+      - file: book/220927.011.001.11 - cs applications of remote sensing to soil moisture and evapotranspiration.md
+      - file: book/220927.011.001.12 - cs water resource management using nasa earth science data.md
+      - file: book/220927.011.001.13 - cs introduction to GPM data and applications.md
+      - file: book/220927.011.001.14 - cs introduction to using the vic hydrologic model with eo.md
+
+  - caption: Agro Sustainable Development
+    chapters:
+      - file: book/220927.014.001 Agro-sustainability investigations copy.md
+      - file: book/220927.014.001.01 - cs satellite remote sensing for agricultural applications.md
+      - file: book/220927.014.001.02 - cs applications of remote sensing-based evapotranspiration.md
+      - file: book/220927.014.001.03 - cs mapping crops and their biophysical characteristics.md
+      - file: book/220927.014.001.04 - cs agricultural crop classification with sar and optical.md
+
+
+  - caption: Wildfire Risk Management
+    chapters: 
+      - file: book/220927.016.001.01 Disaster - Fire mgt investigations.md
+      - file: book/220927.016.001.01.01 - cs satellite observations and tools for fire risk, detection, and analysis.md
+      - file: book/220927.016.001.01.02 - cs using earth observations for pre- and post-fire monitoring.md
+      - file: book/220927.016.001.01.03 - cs techniques for wildfire detection and monitoring.md
+      - file: book/220927.016.001.01.04 - cs nasa earth science data for wildland fire decision making.md
+      - file: book/220927.016.001.01.05 - cs introduction to remote sensing for wildfire applications.md
+      
+  - caption: TO DELETE
+    chapters:
+      - file: book/markdown
+      - file: book/notebooks
+  - caption: Appendices
+    chapters:
+      - file: book/bibliography
+# chapters:
+  # - file: book/markdown
+  # - file: book/notebooks
+  # - file: book/bibliography
