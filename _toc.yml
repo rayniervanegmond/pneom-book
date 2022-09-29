@@ -19,7 +19,7 @@ parts:
       - file: book/220927.001.004 The Introduction - The Research Process.md
       - file: book/220927.001.005 The Introduction - Remote Sensing Technology.md
       - file: book/220927.001.006 The Introduction - Software Development Process.md
-      - file: book/220927.001.010 The Introduction - The Interest Areas.md
+      - file: book/220927.001.010 The Introduction - Holistic Remote Sensing.md
       - file: book/220927.001.011 The Introduction - Water resource management domain.md
       - file: book/220927.001.012 The Introduction - Marine environment domain.md
       - file: book/220927.001.013 The Introduction - Terrestrial eco-biodiv domain.md
@@ -42,7 +42,8 @@ parts:
   - caption: The Geospatial Research Process
     chapters:
       - file: book/220927.004.001 The Research Process.md
-      - file: book/220927.004.001.01 Writing a use-case or publication.md
+      - file: book/220927.004.001.01 Writing a study report.md
+      - file: book/220927.004.001.02 Writing a case-study.md
   
   - caption: An Introduction to Remote Sensing Technology
     chapters:
